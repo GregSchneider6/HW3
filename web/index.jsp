@@ -11,7 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title> Salary Calculation </title>
-        <link rel="stylesheet" type="text/css" href="webApplication.css">
+        <link rel="stylesheet" type="text/css" href="webapp.css">
     </head>
     
     
@@ -21,7 +21,7 @@
     <body>
         <h1> Weekly Net Pay </h1>
         <form name="salary" action="results.jsp" method="post">
-            <table>
+            <table class="info">
                 <tbody>
                     <tr>
                         <td>Hours Worked:</td>
@@ -49,5 +49,7 @@
             
             
         </form>
+      
+       </div>
     </body>
 </html>
